@@ -27,10 +27,7 @@ module.exports = {
   },
   collectCoverageFrom: [
     '<rootDir>/packages/*/src/**/*.{js,jsx,ts,tsx}',
-<<<<<<< HEAD
     '!<rootDir>/packages/*/src/index.{js,ts}',
-=======
->>>>>>> 5e53335e (chore: add test for index)
     '!<rootDir>/packages/.template/**',
     '!**/node_modules/**',
     '!**/vendor/**'
